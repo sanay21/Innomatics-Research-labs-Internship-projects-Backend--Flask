@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex Tester</title>
+</head>
+<body>
+    <h1>Regex Tester</h1>
+    <form method="POST" action="/">
+        <label for="test_string">Test String:</label><br>
+        <input type="text" id="test_string" name="test_string" required><br>
+        <label for="regex">Regex Pattern:</label><br>
+        <input type="text" id="regex" name="regex" required><br><br>
+        <input type="submit" value="Test">
+    </form>
+
+    <h1>Email Validator</h1>
+    <form method="POST" action="/validate_email">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Validate">
+    </form>
+</body>
+</html>
